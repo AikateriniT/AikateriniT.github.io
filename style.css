@@ -1,7 +1,17 @@
 
 h1{
   font-family: fantasy, copperplate;
-  font.weight: 20px;
+  font-weight: 20px;
   text-align: center;
   text-color: blue;
+}
+h2 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: url(/rockets.png);
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
