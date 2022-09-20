@@ -1,3 +1,4 @@
+
 h1 {
   font-family: fantasy, copperplate;
   font-weight: 20px;
@@ -10,15 +11,13 @@ h2 {
   text-align: center;
 }
 p1 {
-    border: 2px solid blue;
-  }
-navigator {
-    color: blue;
 
-}
+  }
 li{
   display: inline;
-  margin-right: 10px;
+  padding: 10px;
+  background-color: #efefef;
+  : center;
 }
 div{
   border: 1px solid #665544;
@@ -29,7 +28,10 @@ div{
   margin: 10px;
 }
 .column2of2{
-  float: left;
-  width: 300px;
-  margin: 10px
+  float: right;
+  width: 400px;
+  margin: 40px;
+}
+.footer{
+  display:hidden;
 }
