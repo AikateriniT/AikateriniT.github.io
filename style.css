@@ -10,18 +10,17 @@ h1 {
 h2 {
   text-align: center;
 }
-p1 {
-
-  }
-li{
-  display: inline;
-  padding: 10px;
+ol {
+text-align: center;
+background-color: blue;
+display: inline;
+padding: 10px;
+}
+.subscribe{
   background-color: #efefef;
-  : center;
+  text-align: right;
 }
-div{
-  border: 1px solid #665544;
-}
+
 .column1of2{
   float: left;
   width: 1200px;
