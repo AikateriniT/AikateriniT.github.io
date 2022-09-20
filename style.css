@@ -3,6 +3,8 @@ h1 {
   font-weight: 20px;
   text-align: center;
   color: blue;
+  background-color: #efefef;
+  padding: 10px
 }
 h2 {
   text-align: center;
@@ -10,3 +12,24 @@ h2 {
 p1 {
     border: 2px solid blue;
   }
+navigator {
+    color: blue;
+
+}
+li{
+  display: inline;
+  margin-right: 10px;
+}
+div{
+  border: 1px solid #665544;
+}
+.column1of2{
+  float: left;
+  width: 1200px;
+  margin: 10px;
+}
+.column2of2{
+  float: left;
+  width: 300px;
+  margin: 10px
+}
