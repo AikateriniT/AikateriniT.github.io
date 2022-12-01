@@ -1,0 +1,217 @@
+/*Code for the contact form*/
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+  }
+
+  body{
+    color:#666666;
+    background-color:#f9f8f6;
+    background-image: url("image_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family:Georgia, times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+nav, footer{
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li{
+  display: inline;
+  padding:10px;
+}
+
+nav li a {
+    color:#ffffff;
+}
+nav li a:hover, nav li a.current{
+    color:#000000;
+}
+
+.wrapper{
+    width: 1800px;
+    margin: 40px auto 2000px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+
+footer{
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
+
+header img {
+    width:70px;
+    height:100%;
+    margin-left:100px;
+}
+
+h1{
+  width:100%;
+  text-align:center;
+}
+
+aside{
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #efefef;
+}
+
+aside section a:hover{
+  color: #985d6a;
+  background-color: #efefef;
+}
+
+a{
+  color: #d62b2b;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+.row{
+  display:flex;
+}
+
+.column{
+ flex:50%
+}
+
+h3{
+  text-align:center;
+}
+.column p{
+  text-align:center;
+}
+/*
+.time img{
+  width:15%;
+  height:auto;
+  opacity:0.1;
+  float:left;
+
+}
+  .clock {
+    text-align:center;
+    
+    
+  }
+
+  .home img{
+    width:15%;
+    height:auto;
+    opacity:0.1;
+    float:left;
+  
+  }
+    .visit {
+   text-align:center;
+
+    }
+  
+    .phone img{
+      width:15%;
+      height:auto;
+      opacity:0.1;
+      float:left;
+    
+    }
+      .call{
+        text-align:center;
+      }
+    */
+/*
+ <div class="time">
+        <img src="clock.png" width="50" height="50">
+            <div class="clock">

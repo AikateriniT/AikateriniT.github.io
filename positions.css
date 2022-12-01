@@ -1,0 +1,203 @@
+body{
+    color:#666666;
+    background-color:#f9f8f6;
+    background-image: url("image_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family:Georgia, times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+#row{
+    width:100%;
+}
+
+.wrapper{
+    width: 1800px;
+    margin: 40px auto 2000px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+
+header img {
+    width:70px;
+    height:100%;
+    margin-left:100px
+}
+
+h1{
+    width:100%;
+    text-align:center;
+  }
+
+nav, footer{
+    
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li{
+    display: inline;
+    padding:10px;
+}
+
+nav li a {
+    color:#ffffff;
+}
+nav li a:hover, nav li a.current{
+    color:#000000;
+}
+
+section.company{
+    width: 1500px;
+    margin-left:20px;
+}
+
+article{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+figure{
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #eeeeee;
+}
+
+figure img{
+    width: 290px;
+    height:200px;
+}
+
+
+a{
+    color: #d62b2b;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h3{
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+
+
+footer{
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
+
+img{
+    width:100%;
+    height: 400px;
+}
+
+
+hr{
+	border: 1px solid rgba(236, 240, 241,0.3);
+}
+/* Content Styling */
+main{
+	height: auto;
+	background-color: rgb(238, 238, 238);
+	padding: 10px;
+	position:center;	
+}
+main h2{
+	font-size: 20px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+/* Content Section === Checkout Page */
+main .application-form{
+	max-width: 1400px;
+	padding: 10px;
+	margin: 0 auto;
+}
+/* Content main === Checkout Page === Checkout Items */
+main .application-form .application-form-detail{
+	width: 100%;
+}
+main .application-form .application-form-detail h4{
+	display: block;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+form .form-group{
+	margin: 10px 5px;
+	width: 100%;
+}
+form label{
+	color:#6e6a6a;
+	display: block;
+	margin-bottom: 6px;
+}
+
+/* THAT IS THE CODE FOR THE BORDERS OF THE INPUTS*/
+form .form-group input,
+form .form-group select,
+form .form-group textarea{
+	width: 100%;
+	padding: 12px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius:4px;
+    box-sizing: border-box;
+    margin-top:6px;
+    margin-bottom:16px;
+	outline: none;
+}
+form input:focus,
+form select:focus,
+form textarea:focus{
+	outline: 1px solid rgb(173, 173, 173);
+	border: 1xp solid transparent;
+}
+
+/* I asked for help to put the name and lastname next to each other*/
+form .form-inline{
+	display: flex;
+	justify-content: space-between;
+}
+form .form-inline.flex{
+	display: flex;
+	justify-content: start;
+	margin-bottom: 10px;
+}
+form .form-inline.flex input{
+	width: unset;
+	margin-right: 10px;
+}
+form .form-inline .form-group{
+	width: 48%;
+}
+
+/*SUBMIT BUTTON CODE*/
+form button{
+	padding: 6px 10px;
+	background-color:#bdbcbc;
+	border: none;
+	margin-left: 5px;
+}
+form button:hover{
+	color: white;
+}
+
+p{
+text-align:center;    
+}
