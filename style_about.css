@@ -71,23 +71,6 @@ article{
     width: 100%;
 }
 
-figure{
-    float: left;
-    width: 290px;
-    height: 220px;
-    padding: 20px;
-    margin: 20px;
-    border: 2px solid #eeeeee;
-}
-
-figure img{
-    width: 290px;
-    height:200px;
-}
-figcaption{
-    font-size: 90%;
-    text-align: center;
-}
 
 aside{
     width: 230px;
@@ -175,3 +158,17 @@ form {
         width:100%;
     }
   }
+
+  @media screen and (min-width: 601px) {
+    p {
+      font-size: 20px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    p {
+      font-size: 20px;
+    }
+  }
+  
